@@ -1,0 +1,8 @@
+
+Num=[10,11,33,22,66,88,99,45,65]
+print(Num[0:])
+print(Num[1:4+1])
+print(Num[::1])
+print(Num[::2])
+print(Num[1::2])
+print(Num[::-1])

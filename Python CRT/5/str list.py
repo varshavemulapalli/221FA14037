@@ -1,0 +1,5 @@
+Input=input("Enter the string")
+print(f"User Entered string : {Input}")
+Str_List=Input.split()
+Str="".join(Str_List)
+print(f"String without spaces{Str}:")

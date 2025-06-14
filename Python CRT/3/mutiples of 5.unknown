@@ -1,0 +1,14 @@
+# 4.  write a python program to read the list elements as input from the user and print a new list of numbers which are multiples of 5.
+
+List=[5,10,15,20,25,30,35,40,45,50]
+len=int(input("Enter the size of list"))     
+for i in range(len):        
+    Temp=int(input("Enter the Integer Value at {i} index "))
+    List.append(Temp)
+print("Given List :")
+print(List)
+for i in List:
+    if i%5==0:
+        List.append(i)
+print(List)    
+

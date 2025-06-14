@@ -1,0 +1,34 @@
+'''
+Set={10,20,30,40,50,60,70,80,90}
+print(Set)
+print(type(Set))
+print('banana'in Set)
+Set.add(100)
+print(Set)
+Set.update([110,120,130])
+print(Set)
+Set.remove(10)
+print(Set)
+Set.discard(50)
+print(Set)
+Set.pop()
+print(Set)
+'''
+##union(|)
+set1={1,2,3,4,5,6}
+set2={4,5,6,9,7,8}
+print(set1|set2)
+#intersection(&)
+print(set1&set2)
+#difference(-)
+print(set1-set2)
+#symmetric difference(^)
+print(set1^set2)
+#issubset()
+set_a={2,4,6,8}
+set_b={2,4,6,8,10,12,14,16,18}
+print(set_a.issubset(set_b))
+print(set_b.issubset(set_a))
+#issuperset()
+print(set_a.issuperset(set_b))
+print(set_b.issuperset(set_a))
